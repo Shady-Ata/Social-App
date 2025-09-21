@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import styles from './Login.module.css';
+import styles from './login.module.css';
 import { useForm } from 'react-hook-form';
 import axios from 'axios';
 import * as z from "zod";
@@ -62,3 +62,4 @@ export default function Login() {
     </div>
   )
 }
+
